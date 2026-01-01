@@ -1,0 +1,357 @@
+2025-12-29 20:37:02,476 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-12-29 20:37:02,476 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-29 20:37:02,509 - INFO -  * Restarting with stat
+2025-12-29 20:37:04,483 - WARNING -  * Debugger is active!
+2025-12-29 20:37:04,507 - INFO -  * Debugger PIN: 122-456-628
+2025-12-29 20:38:04,762 - INFO - 127.0.0.1 - - [29/Dec/2025 20:38:04] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:38:04,988 - INFO - 127.0.0.1 - - [29/Dec/2025 20:38:04] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:38:13,065 - INFO - 127.0.0.1 - - [29/Dec/2025 20:38:13] "GET /api/health HTTP/1.1" 200 -
+2025-12-29 20:39:59,977 - INFO - 127.0.0.1 - - [29/Dec/2025 20:39:59] "OPTIONS /api/validate-url HTTP/1.1" 200 -
+2025-12-29 20:40:01,718 - INFO - 127.0.0.1 - - [29/Dec/2025 20:40:01] "POST /api/validate-url HTTP/1.1" 200 -
+2025-12-29 20:40:51,817 - INFO - 127.0.0.1 - - [29/Dec/2025 20:40:51] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:40:52,933 - INFO - 127.0.0.1 - - [29/Dec/2025 20:40:52] "[35m[1mPOST /api/test-selector HTTP/1.1[0m" 500 -
+2025-12-29 20:41:31,673 - INFO - 127.0.0.1 - - [29/Dec/2025 20:41:31] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:41:32,699 - INFO - 127.0.0.1 - - [29/Dec/2025 20:41:32] "[35m[1mPOST /api/test-selector HTTP/1.1[0m" 500 -
+2025-12-29 20:42:02,989 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:02] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:42:04,558 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:04] "POST /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:42:15,512 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:15] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:42:15,773 - INFO - ==================================================
+2025-12-29 20:42:15,774 - INFO - Starting Advanced Web Scraper
+2025-12-29 20:42:15,775 - INFO - ==================================================
+2025-12-29 20:42:15,775 - INFO - Loaded 0 proxies
+2025-12-29 20:42:15,776 - INFO - Loaded 0 credential sets
+2025-12-29 20:42:15,776 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines
+2025-12-29 20:42:16,718 - INFO - Extracted 1 items for 'title'
+2025-12-29 20:42:16,773 - INFO - Saved 1 records to scraped_data_20251229_204216.csv
+2025-12-29 20:42:16,773 - INFO - Successfully scraped 1 pages
+2025-12-29 20:42:16,774 - INFO - Downloaded 0 images
+2025-12-29 20:42:16,774 - INFO - ==================================================
+2025-12-29 20:42:16,774 - INFO - Scraping Completed
+2025-12-29 20:42:16,776 - INFO - Duration: 1.00 seconds
+2025-12-29 20:42:16,776 - INFO - Stats: {'total_pages': 1, 'successful_pages': 1, 'failed_pages': 0, 'total_items': 1, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 20, 42, 15, 775120), 'end_time': datetime.datetime(2025, 12, 29, 20, 42, 16, 774917)}
+2025-12-29 20:42:16,777 - INFO - ==================================================
+2025-12-29 20:42:16,792 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:16] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:42:16,805 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:16] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:42:39,357 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:39] "OPTIONS /api/download HTTP/1.1" 200 -
+2025-12-29 20:42:39,811 - INFO - 127.0.0.1 - - [29/Dec/2025 20:42:39] "POST /api/download HTTP/1.1" 200 -
+2025-12-29 20:47:51,496 - INFO - 127.0.0.1 - - [29/Dec/2025 20:47:51] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:47:52,479 - INFO - 127.0.0.1 - - [29/Dec/2025 20:47:52] "POST /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:47:58,816 - INFO - 127.0.0.1 - - [29/Dec/2025 20:47:58] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:47:59,136 - INFO - ==================================================
+2025-12-29 20:47:59,136 - INFO - Starting Advanced Web Scraper
+2025-12-29 20:47:59,136 - INFO - ==================================================
+2025-12-29 20:47:59,136 - INFO - Loaded 0 proxies
+2025-12-29 20:47:59,136 - INFO - Loaded 0 credential sets
+2025-12-29 20:47:59,136 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines
+2025-12-29 20:48:00,036 - INFO - Extracted 1 items for 'title'
+2025-12-29 20:48:00,036 - INFO - Found 71 images
+2025-12-29 20:48:00,053 - INFO - Saved 1 records to scraped_data_20251229_204800.csv
+2025-12-29 20:48:00,053 - INFO - Successfully scraped 1 pages
+2025-12-29 20:48:00,053 - INFO - Downloaded 0 images
+2025-12-29 20:48:00,053 - INFO - ==================================================
+2025-12-29 20:48:00,053 - INFO - Scraping Completed
+2025-12-29 20:48:00,053 - INFO - Duration: 0.92 seconds
+2025-12-29 20:48:00,053 - INFO - Stats: {'total_pages': 1, 'successful_pages': 1, 'failed_pages': 0, 'total_items': 1, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 20, 47, 59, 136014), 'end_time': datetime.datetime(2025, 12, 29, 20, 48, 0, 53724)}
+2025-12-29 20:48:00,053 - INFO - ==================================================
+2025-12-29 20:48:00,070 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:00] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:48:00,396 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:00] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:48:08,745 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:08] "OPTIONS /api/download HTTP/1.1" 200 -
+2025-12-29 20:48:09,123 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:09] "POST /api/download HTTP/1.1" 200 -
+2025-12-29 20:48:23,050 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:23] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:48:23,303 - INFO - ==================================================
+2025-12-29 20:48:23,303 - INFO - Starting Advanced Web Scraper
+2025-12-29 20:48:23,304 - INFO - ==================================================
+2025-12-29 20:48:23,304 - INFO - Loaded 0 proxies
+2025-12-29 20:48:23,305 - INFO - Loaded 0 credential sets
+2025-12-29 20:48:23,305 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines
+2025-12-29 20:48:24,774 - INFO - Extracted 1 items for 'title'
+2025-12-29 20:48:24,778 - INFO - Saved 1 records to scraped_data_20251229_204824.csv
+2025-12-29 20:48:24,780 - INFO - Successfully scraped 1 pages
+2025-12-29 20:48:24,781 - INFO - Downloaded 0 images
+2025-12-29 20:48:24,781 - INFO - ==================================================
+2025-12-29 20:48:24,783 - INFO - Scraping Completed
+2025-12-29 20:48:24,784 - INFO - Duration: 1.48 seconds
+2025-12-29 20:48:24,784 - INFO - Stats: {'total_pages': 1, 'successful_pages': 1, 'failed_pages': 0, 'total_items': 1, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 20, 48, 23, 304648), 'end_time': datetime.datetime(2025, 12, 29, 20, 48, 24, 781966)}
+2025-12-29 20:48:24,784 - INFO - ==================================================
+2025-12-29 20:48:24,802 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:24] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:48:24,817 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:24] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:48:39,129 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:39] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:48:40,211 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:40] "POST /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:48:48,136 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:48] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:48:48,403 - INFO - ==================================================
+2025-12-29 20:48:48,403 - INFO - Starting Advanced Web Scraper
+2025-12-29 20:48:48,403 - INFO - ==================================================
+2025-12-29 20:48:48,403 - INFO - Loaded 0 proxies
+2025-12-29 20:48:48,403 - INFO - Loaded 0 credential sets
+2025-12-29 20:48:48,403 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines
+2025-12-29 20:48:49,338 - INFO - Extracted 1 items for 'title'
+2025-12-29 20:48:49,355 - INFO - Extracted 1 items for 'title'
+2025-12-29 20:48:49,355 - INFO - Saved 1 records to scraped_data_20251229_204849.csv
+2025-12-29 20:48:49,355 - INFO - Successfully scraped 1 pages
+2025-12-29 20:48:49,355 - INFO - Downloaded 0 images
+2025-12-29 20:48:49,355 - INFO - ==================================================
+2025-12-29 20:48:49,355 - INFO - Scraping Completed
+2025-12-29 20:48:49,355 - INFO - Duration: 0.95 seconds
+2025-12-29 20:48:49,355 - INFO - Stats: {'total_pages': 1, 'successful_pages': 1, 'failed_pages': 0, 'total_items': 2, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 20, 48, 48, 403143), 'end_time': datetime.datetime(2025, 12, 29, 20, 48, 49, 355538)}
+2025-12-29 20:48:49,355 - INFO - ==================================================
+2025-12-29 20:48:49,388 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:49] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:48:49,388 - INFO - 127.0.0.1 - - [29/Dec/2025 20:48:49] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:49:11,957 - INFO - 127.0.0.1 - - [29/Dec/2025 20:49:11] "OPTIONS /api/download HTTP/1.1" 200 -
+2025-12-29 20:49:12,263 - INFO - 127.0.0.1 - - [29/Dec/2025 20:49:12] "POST /api/download HTTP/1.1" 200 -
+2025-12-29 20:50:50,177 - INFO - 127.0.0.1 - - [29/Dec/2025 20:50:50] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:50:50,427 - INFO - ==================================================
+2025-12-29 20:50:50,427 - INFO - Starting Advanced Web Scraper
+2025-12-29 20:50:50,444 - INFO - ==================================================
+2025-12-29 20:50:50,444 - INFO - Loaded 0 proxies
+2025-12-29 20:50:50,444 - INFO - Loaded 0 credential sets
+2025-12-29 20:50:50,444 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/1
+2025-12-29 20:50:51,045 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:52,047 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/2
+2025-12-29 20:50:52,180 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:53,193 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/3
+2025-12-29 20:50:53,296 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:54,300 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/4
+2025-12-29 20:50:54,632 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:55,636 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/5
+2025-12-29 20:50:55,750 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:56,759 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/6
+2025-12-29 20:50:56,869 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:57,881 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/7
+2025-12-29 20:50:57,985 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:50:58,989 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/8
+2025-12-29 20:50:59,220 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:00,222 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/9
+2025-12-29 20:51:00,322 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:01,327 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/10
+2025-12-29 20:51:01,561 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:01,595 - INFO - Saved 10 records to scraped_data_20251229_205101.db
+2025-12-29 20:51:01,595 - INFO - Successfully scraped 10 pages
+2025-12-29 20:51:01,595 - INFO - Downloaded 0 images
+2025-12-29 20:51:01,595 - INFO - ==================================================
+2025-12-29 20:51:01,595 - INFO - Scraping Completed
+2025-12-29 20:51:01,595 - INFO - Duration: 11.15 seconds
+2025-12-29 20:51:01,595 - INFO - Stats: {'total_pages': 10, 'successful_pages': 10, 'failed_pages': 0, 'total_items': 0, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 20, 50, 50, 444537), 'end_time': datetime.datetime(2025, 12, 29, 20, 51, 1, 595324)}
+2025-12-29 20:51:01,595 - INFO - ==================================================
+2025-12-29 20:51:01,627 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:01] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:51:01,960 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:01] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 20:51:27,688 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:27] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:51:28,663 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:28] "POST /api/test-selector HTTP/1.1" 200 -
+2025-12-29 20:51:36,777 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:36] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:51:37,032 - INFO - ==================================================
+2025-12-29 20:51:37,032 - INFO - Starting Advanced Web Scraper
+2025-12-29 20:51:37,032 - INFO - ==================================================
+2025-12-29 20:51:37,032 - INFO - Loaded 0 proxies
+2025-12-29 20:51:37,033 - INFO - Loaded 0 credential sets
+2025-12-29 20:51:37,033 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/1
+2025-12-29 20:51:37,813 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:38,815 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/2
+2025-12-29 20:51:38,964 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:39,965 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/3
+2025-12-29 20:51:40,445 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:41,448 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/4
+2025-12-29 20:51:41,580 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:42,596 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/5
+2025-12-29 20:51:42,848 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:43,851 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/6
+2025-12-29 20:51:43,932 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:44,948 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/7
+2025-12-29 20:51:45,052 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:46,056 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/8
+2025-12-29 20:51:46,224 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:47,232 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/9
+2025-12-29 20:51:47,352 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:48,358 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/10
+2025-12-29 20:51:48,454 - INFO - Extracted 0 items for 'title'
+2025-12-29 20:51:48,471 - INFO - Saved 10 records to scraped_data_20251229_205148.csv
+2025-12-29 20:51:48,471 - INFO - Successfully scraped 10 pages
+2025-12-29 20:51:48,471 - INFO - Downloaded 0 images
+2025-12-29 20:51:48,471 - INFO - ==================================================
+2025-12-29 20:51:48,471 - INFO - Scraping Completed
+2025-12-29 20:51:48,471 - INFO - Duration: 11.44 seconds
+2025-12-29 20:51:48,471 - INFO - Stats: {'total_pages': 10, 'successful_pages': 10, 'failed_pages': 0, 'total_items': 0, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 20, 51, 37, 32730), 'end_time': datetime.datetime(2025, 12, 29, 20, 51, 48, 471457)}
+2025-12-29 20:51:48,471 - INFO - ==================================================
+2025-12-29 20:51:48,489 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:48] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 20:51:48,800 - INFO - 127.0.0.1 - - [29/Dec/2025 20:51:48] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 21:30:52,100 - INFO - 127.0.0.1 - - [29/Dec/2025 21:30:52] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 21:30:52,350 - INFO - ==================================================
+2025-12-29 21:30:52,369 - INFO - Starting Advanced Web Scraper
+2025-12-29 21:30:52,369 - INFO - ==================================================
+2025-12-29 21:30:52,369 - INFO - Loaded 0 proxies
+2025-12-29 21:30:52,384 - INFO - Loaded 0 credential sets
+2025-12-29 21:30:52,384 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/1
+2025-12-29 21:30:53,986 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:53,990 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:54,998 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/2
+2025-12-29 21:30:55,103 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:55,120 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:56,144 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/3
+2025-12-29 21:30:56,327 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:56,348 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:57,360 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/4
+2025-12-29 21:30:57,606 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:57,621 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:58,627 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/5
+2025-12-29 21:30:58,826 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:58,842 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:59,867 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/6
+2025-12-29 21:30:59,977 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:30:59,993 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:01,008 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/7
+2025-12-29 21:31:01,126 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:01,126 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:02,139 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/8
+2025-12-29 21:31:02,280 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:02,315 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:03,334 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/9
+2025-12-29 21:31:03,478 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:03,494 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:04,500 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/10
+2025-12-29 21:31:04,613 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:04,629 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:04,648 - INFO - Saved 10 records to scraped_data_20251229_213104.csv
+2025-12-29 21:31:04,648 - INFO - Successfully scraped 10 pages
+2025-12-29 21:31:04,648 - INFO - Downloaded 0 images
+2025-12-29 21:31:04,648 - INFO - ==================================================
+2025-12-29 21:31:04,648 - INFO - Scraping Completed
+2025-12-29 21:31:04,648 - INFO - Duration: 12.28 seconds
+2025-12-29 21:31:04,648 - INFO - Stats: {'total_pages': 10, 'successful_pages': 10, 'failed_pages': 0, 'total_items': 0, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 21, 30, 52, 369593), 'end_time': datetime.datetime(2025, 12, 29, 21, 31, 4, 648542)}
+2025-12-29 21:31:04,663 - INFO - ==================================================
+2025-12-29 21:31:04,681 - INFO - 127.0.0.1 - - [29/Dec/2025 21:31:04] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 21:31:05,071 - INFO - 127.0.0.1 - - [29/Dec/2025 21:31:05] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 21:31:21,849 - INFO - 127.0.0.1 - - [29/Dec/2025 21:31:21] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 21:31:22,098 - INFO - ==================================================
+2025-12-29 21:31:22,098 - INFO - Starting Advanced Web Scraper
+2025-12-29 21:31:22,098 - INFO - ==================================================
+2025-12-29 21:31:22,098 - WARNING - JavaScript rendering requested but engine not available
+2025-12-29 21:31:22,098 - INFO - Loaded 0 proxies
+2025-12-29 21:31:22,098 - INFO - Loaded 0 credential sets
+2025-12-29 21:31:22,098 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/1
+2025-12-29 21:31:23,184 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:23,184 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:24,203 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/2
+2025-12-29 21:31:24,318 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:24,318 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:25,332 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/3
+2025-12-29 21:31:25,434 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:25,434 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:26,447 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/4
+2025-12-29 21:31:26,536 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:26,553 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:27,557 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/5
+2025-12-29 21:31:27,687 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:27,687 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:28,697 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/6
+2025-12-29 21:31:28,807 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:28,807 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:29,819 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/7
+2025-12-29 21:31:30,307 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:30,308 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:31,314 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/8
+2025-12-29 21:31:31,490 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:31,490 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:32,504 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/9
+2025-12-29 21:31:32,610 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:32,610 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:33,619 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines/page/10
+2025-12-29 21:31:33,812 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:33,812 - INFO - Extracted 0 items for 'title'
+2025-12-29 21:31:33,812 - INFO - Saved 10 records to scraped_data_20251229_213133.csv
+2025-12-29 21:31:33,812 - INFO - Successfully scraped 10 pages
+2025-12-29 21:31:33,812 - INFO - Downloaded 0 images
+2025-12-29 21:31:33,812 - INFO - ==================================================
+2025-12-29 21:31:33,812 - INFO - Scraping Completed
+2025-12-29 21:31:33,812 - INFO - Duration: 11.71 seconds
+2025-12-29 21:31:33,812 - INFO - Stats: {'total_pages': 10, 'successful_pages': 10, 'failed_pages': 0, 'total_items': 0, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 21, 31, 22, 98050), 'end_time': datetime.datetime(2025, 12, 29, 21, 31, 33, 812058)}
+2025-12-29 21:31:33,812 - INFO - ==================================================
+2025-12-29 21:31:33,845 - INFO - 127.0.0.1 - - [29/Dec/2025 21:31:33] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 21:31:34,189 - INFO - 127.0.0.1 - - [29/Dec/2025 21:31:34] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 21:32:21,071 - INFO - 127.0.0.1 - - [29/Dec/2025 21:32:21] "OPTIONS /api/test-selector HTTP/1.1" 200 -
+2025-12-29 21:32:22,483 - INFO - 127.0.0.1 - - [29/Dec/2025 21:32:22] "POST /api/test-selector HTTP/1.1" 200 -
+2025-12-29 21:32:34,824 - INFO - 127.0.0.1 - - [29/Dec/2025 21:32:34] "OPTIONS /api/scrape HTTP/1.1" 200 -
+2025-12-29 21:32:35,072 - INFO - ==================================================
+2025-12-29 21:32:35,072 - INFO - Starting Advanced Web Scraper
+2025-12-29 21:32:35,072 - INFO - ==================================================
+2025-12-29 21:32:35,090 - INFO - Loaded 0 proxies
+2025-12-29 21:32:35,090 - INFO - Loaded 0 credential sets
+2025-12-29 21:32:35,090 - INFO - Scraping: https://www.1mg.com/drugs-all-medicines
+2025-12-29 21:32:36,601 - INFO - Extracted 1 items for 'title'
+2025-12-29 21:32:36,636 - INFO - Extracted 1 items for 'title'
+2025-12-29 21:32:36,659 - INFO - Saved 1 records to scraped_data_20251229_213236.csv
+2025-12-29 21:32:36,676 - INFO - Successfully scraped 1 pages
+2025-12-29 21:32:36,686 - INFO - Downloaded 0 images
+2025-12-29 21:32:36,697 - INFO - ==================================================
+2025-12-29 21:32:36,711 - INFO - Scraping Completed
+2025-12-29 21:32:36,741 - INFO - Duration: 1.61 seconds
+2025-12-29 21:32:36,795 - INFO - Stats: {'total_pages': 1, 'successful_pages': 1, 'failed_pages': 0, 'total_items': 2, 'images_downloaded': 0, 'start_time': datetime.datetime(2025, 12, 29, 21, 32, 35, 90870), 'end_time': datetime.datetime(2025, 12, 29, 21, 32, 36, 697845)}
+2025-12-29 21:32:36,813 - INFO - ==================================================
+2025-12-29 21:32:36,874 - INFO - 127.0.0.1 - - [29/Dec/2025 21:32:36] "POST /api/scrape HTTP/1.1" 200 -
+2025-12-29 21:32:36,914 - INFO - 127.0.0.1 - - [29/Dec/2025 21:32:36] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-29 21:33:06,691 - INFO - 127.0.0.1 - - [29/Dec/2025 21:33:06] "GET /api/health HTTP/1.1" 200 -
+2025-12-30 08:34:55,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-12-30 08:34:55,116 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-30 08:34:55,142 - INFO -  * Restarting with stat
+2025-12-30 08:34:56,649 - WARNING -  * Debugger is active!
+2025-12-30 08:34:56,669 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 08:35:32,079 - INFO - 127.0.0.1 - - [30/Dec/2025 08:35:32] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 08:35:32,121 - INFO - 127.0.0.1 - - [30/Dec/2025 08:35:32] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 08:35:32,416 - INFO - 127.0.0.1 - - [30/Dec/2025 08:35:32] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 08:35:32,720 - INFO - 127.0.0.1 - - [30/Dec/2025 08:35:32] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 08:45:29,535 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-12-30 08:45:29,536 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-30 08:45:29,539 - INFO -  * Restarting with stat
+2025-12-30 08:45:30,902 - WARNING -  * Debugger is active!
+2025-12-30 08:45:30,923 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 08:49:58,109 - INFO -  * Detected change in 'C:\\Users\\sajis\\Documents\\A\\web-scraper\\backend\\scraper.py', reloading
+2025-12-30 08:49:58,540 - INFO -  * Restarting with stat
+2025-12-30 08:50:21,252 - WARNING -  * Debugger is active!
+2025-12-30 08:50:21,298 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 08:50:53,272 - INFO -  * Detected change in 'C:\\Users\\sajis\\Documents\\A\\web-scraper\\backend\\scraper.py', reloading
+2025-12-30 08:50:53,460 - INFO -  * Restarting with stat
+2025-12-30 08:50:55,698 - WARNING -  * Debugger is active!
+2025-12-30 08:50:55,720 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 08:51:25,426 - INFO -  * Detected change in 'C:\\Users\\sajis\\Documents\\A\\web-scraper\\backend\\scraper.py', reloading
+2025-12-30 08:51:25,644 - INFO -  * Restarting with stat
+2025-12-30 08:51:27,559 - WARNING -  * Debugger is active!
+2025-12-30 08:51:27,576 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 08:51:36,986 - INFO -  * Detected change in 'C:\\Users\\sajis\\Documents\\A\\web-scraper\\backend\\scraper.py', reloading
+2025-12-30 08:51:37,246 - INFO -  * Restarting with stat
+2025-12-30 08:51:38,912 - WARNING -  * Debugger is active!
+2025-12-30 08:51:38,925 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 08:59:14,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-12-30 08:59:14,178 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-30 08:59:14,181 - INFO -  * Restarting with stat
+2025-12-30 08:59:15,795 - WARNING -  * Debugger is active!
+2025-12-30 08:59:15,805 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 09:08:45,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-12-30 09:08:45,426 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-30 09:08:45,434 - INFO -  * Restarting with stat
+2025-12-30 09:08:46,788 - WARNING -  * Debugger is active!
+2025-12-30 09:08:46,810 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 09:09:23,378 - INFO - 127.0.0.1 - - [30/Dec/2025 09:09:23] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 09:09:23,773 - INFO - 127.0.0.1 - - [30/Dec/2025 09:09:23] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 17:44:32,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-12-30 17:44:32,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-12-30 17:44:32,057 - INFO -  * Restarting with stat
+2025-12-30 17:44:33,810 - WARNING -  * Debugger is active!
+2025-12-30 17:44:33,831 - INFO -  * Debugger PIN: 122-456-628
+2025-12-30 17:45:15,027 - INFO - 127.0.0.1 - - [30/Dec/2025 17:45:15] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 17:45:15,406 - INFO - 127.0.0.1 - - [30/Dec/2025 17:45:15] "GET /api/history?limit=10 HTTP/1.1" 200 -
+2025-12-30 17:45:15,413 - INFO - 127.0.0.1 - - [30/Dec/2025 17:45:15] "GET /api/history?limit=10 HTTP/1.1" 200 -

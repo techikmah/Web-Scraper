@@ -1,0 +1,22 @@
+# Core scraping libraries
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Data handling
+numpy>=1.24.0,<2.0.0
+pandas>=2.1.0,<3.0.0
+openpyxl>=3.1.2
+
+# Web API framework
+flask==3.0.0
+flask-cors==4.0.0
+flask-socketio==5.3.6
+
+# Optional: for production deployment
+gunicorn==21.2.0
+
+# Optional: JavaScript rendering (install separately if needed)
+# selenium==4.15.2
+# playwright==1.40.0
+# Note: For Playwright, also run: playwright install chromium
