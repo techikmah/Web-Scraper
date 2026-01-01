@@ -1,0 +1,36 @@
+#!/bin/bash
+# Script to create Python executable for bundling with Electron
+# Run this before building the Electron app
+
+echo "=================================="
+echo "Creating Python Backend Executable"
+echo "=================================="
+
+cd backend
+
+# Install PyInstaller if not already installed
+pip install pyinstaller
+
+# Create executable
+echo "Building app.py executable..."
+pyinstaller --onefile \
+  --name web-scraper-backend \
+  --hidden-import=flask \
+  --hidden-import=flask_cors \
+  --hidden-import=bs4 \
+  --hidden-import=lxml \
+  --hidden-import=pandas \
+  --hidden-import=openpyxl \
+  --hidden-import=requests \
+  --add-data "scraper.py:." \
+  --console \
+  app.py
+
+echo ""
+echo "✅ Executable created at: backend/dist/web-scraper-backend.exe"
+echo ""
+echo "Next steps:"
+echo "1. Copy executable to electron/backend/"
+echo "2. Update electron/main.js to start the executable"
+echo "3. Build Electron app"
+echo ""
